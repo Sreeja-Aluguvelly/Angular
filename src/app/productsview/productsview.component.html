@@ -1,0 +1,14 @@
+<p>productsview works!</p>
+
+<div>
+    <h2>Products List</h2>
+    <ul>
+      <li *ngFor="let product of products">
+        <strong>Product ID:</strong> {{ product.productid }} <br>
+        <strong>Name:</strong> {{ product.productname }} <br>
+        <strong>Brand:</strong> {{ product.productbrand }} <br>
+        <strong>Rating:</strong> {{ product.productrating }}
+      </li>
+    </ul>
+  </div>
+  
